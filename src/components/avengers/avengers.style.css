@@ -1,0 +1,71 @@
+.avengers-container-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.avengers-container__view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  gap: 1rem;
+}
+
+.avengers-container__view h3 {
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: rgb(85, 84, 84);
+}
+
+.avengers-container__view input {
+  height: 3rem;
+  width: 50%;
+  margin-left: 5rem;
+  padding: 2px;
+  font: 400 1rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border-radius: 8px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.189);
+}
+
+.avengers-container__view button {
+  height: 3rem;
+  width: 50%;
+  margin-left: 5rem;
+  border-radius: 8px;
+  font: 400 1rem;
+  text-transform: uppercase;
+  background-color: rgba(7, 7, 7, 0.48);
+}
+
+.avengers-container__list-view {
+  display: grid;
+  grid-template-columns: repeat(3, 1rf);
+  text-align: center;
+  border: solid 2px black;
+  width: 10rem;
+  height: 20rem;
+  border-radius: 8px;
+}
+
+.avengers-container__each-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  gap: 2rem;
+}
+
+.avengers-container__list-view button {
+  height: 3rem;
+  width: 50%;
+  text-transform: uppercase;
+  border-radius: 8px;
+}
