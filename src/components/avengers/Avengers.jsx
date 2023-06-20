@@ -59,7 +59,6 @@ const Avengers = () => {
       await addDoc(avengersCollection, addHero);
       await getAllAvengers();
       setListOfHeroImg([...heroImg, listOfHeroImg]);
-      //   setHeroImg("");
     } catch (error) {
       console.log(error);
     }
